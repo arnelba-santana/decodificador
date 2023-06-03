@@ -1,0 +1,229 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sem serifa;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+    .text-area:focus{
+        outline: none;
+}
+
+.mensagem {
+        background: white;       
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 40px;
+        margin-top: 10px;
+        padding-left: 20px;
+        position: absolute;
+        width: 300px;
+        height: 520px;
+   
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.boneco {
+    background: white;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.caixa {
+    position: absolute;
+    background: white;
+    margin-left: 40px;
+    margin-top: 11px;
+    padding-left: 20px;
+    border-radius: 24px;
+    width: 300px;
+    height: 520px;
+   
+}
+
+/* texo: nenhuma mensagem encontrada*/
+h2 {
+    background: white;
+    font-family: "inter";
+    font-style: normal;   
+    font-weight: bold; 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;    
+    text-align: center;
+    color: #343A40;
+    margin-top: 100px;
+    height: 58px;
+}
+
+/* texto: digite um texto que você deseja criptografas ou descriptografar*/
+p {
+    background: white;
+    font-family: "inter";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;    
+    text-align: center;
+    color: #495057;
+    
+}
+
+h6 {
+    margin-top: 151px;
+    margin-bottom: 10px;    
+    color: #495057;
+    font-family: 'inter';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.alerta {
+    width: 20px;
+    height: 20px;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover {
+    color: #d8d496;
+    background: #6b8181;
+    transform: scale(1.1);
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor:pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover {
+    color: #d8d496;
+    background: #05254d;
+    transform: scale(1.1);
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 56px;
+    margin-top: 450px;
+    position: absolute;
+    width: 290px;
+}
+
+.btn-copiar:hover {
+    color: #d8d496;
+    background: #495857;
+    transform: scale(1.1);
+}
+
+.informacao {
+    color: #495057;
+    font-size: 35px;
+}
+
+footer {
+    text-align: center;
+    margin-left: 10px;
+    padding: 4px 0 ;
+    border: none;
+   
+}
+     
+   .copyright { 
+       background: #E5E5E5;
+       font-size: 15px;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 50px;
+       font-style: italic;
+      
+   } 
+   
+   .links {
+       display: flex;
+      
+   }
+   
+   .git {
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     margin-left: 48%;
+     margin-top: 18px;
+   
+   }
+   
+   .linkedin {
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     margin-left: 50%;
+     margin-top: 18px;
+   }
+
+   @media screen and (max-width: 480px) {
+    .logoAlura, .text-area, .botoes, .links, .copyright, .din, .git, .mensagem{
+        width: auto;
+        
+    }
+    .copyright {
+        left: 30%;
+    }
+    .git {
+        left: 80%;
+    }
+    .linkedin {
+        left: 85%;
+    }
+    
+}  
